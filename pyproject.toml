@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "curveplate"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate model railway flexible track laying templates (DXF, PDF, STP)"
 readme = "README.md"
 license = "MIT"

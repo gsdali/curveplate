@@ -1,12 +1,9 @@
 # Active Tasks
 
-> This file is auto-generated from GitHub Issues. Do not edit manually.
-> See `.github/workflows/sync-mirror.yml` for the sync workflow.
+> Auto-generated from GitHub Issues on 2025-12-26
 
-## Setup
+## Features
 
-- [ ] Initial project setup pending GitHub repository creation
+- [ ] [#2](https://github.com/gsdali/curveplate/issues/2) Add export tests for DXF and PDF
+- [ ] [#1](https://github.com/gsdali/curveplate/issues/1) Implement full STEP file geometry export
 
----
-
-*Last synced: Not yet connected to GitHub*

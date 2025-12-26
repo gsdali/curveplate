@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curveplate"
+version = "0.1.0"
+description = "Generate model railway flexible track laying templates (DXF, PDF, STP)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.13"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["model railway", "track template", "DXF", "CAD", "laser cutting"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "ezdxf>=1.0.0",
+    "reportlab>=4.0.0",
+    "geomdl>=5.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0",
+]
+stp = [
+    "steputils>=0.2.0",
+]
+
+[project.scripts]
+curveplate = "curveplate.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gsdali/curveplate"
+Repository = "https://github.com/gsdali/curveplate"
+Issues = "https://github.com/gsdali/curveplate/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

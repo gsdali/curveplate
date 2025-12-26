@@ -117,6 +117,33 @@ Geometry Parameters:
 | O     | 1435mm          | 32         |
 | G     | 1435mm          | 45         |
 
+## Dependencies
+
+### Core Dependencies
+
+| Package | Version | Purpose |
+|---------|---------|---------|
+| [ezdxf](https://ezdxf.readthedocs.io/) | >=1.0.0 | DXF file generation |
+| [reportlab](https://docs.reportlab.com/) | >=4.0.0 | PDF file generation |
+| [geomdl](https://nurbs-python.readthedocs.io/) | >=5.3.0 | NURBS curve calculations |
+
+### Optional Dependencies
+
+| Package | Version | Purpose | Install |
+|---------|---------|---------|---------|
+| [cadquery](https://cadquery.readthedocs.io/) | >=2.4.0 | 3D STEP file export | `pip install curveplate[stp]` |
+
+### Development Dependencies
+
+| Package | Version | Purpose |
+|---------|---------|---------|
+| [pytest](https://docs.pytest.org/) | >=7.0.0 | Testing framework |
+| [ruff](https://docs.astral.sh/ruff/) | >=0.1.0 | Linting |
+
+### Requirements
+
+- Python >=3.13
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.

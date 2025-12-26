@@ -7,16 +7,15 @@ name = "curveplate"
 version = "0.1.0"
 description = "Generate model railway flexible track laying templates (DXF, PDF, STP)"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.13"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "gsdali"}
 ]
 keywords = ["model railway", "track template", "DXF", "CAD", "laser cutting"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Visualization",
 ]

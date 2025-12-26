@@ -144,6 +144,10 @@ Geometry Parameters:
 
 - Python >=3.13
 
+## Acknowledgments
+
+This project was developed using [Claude Code](https://claude.ai/claude-code), powered by Claude Opus 4.5 (Anthropic).
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.

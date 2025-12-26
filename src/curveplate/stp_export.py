@@ -32,7 +32,7 @@ def export_stp(
     except ImportError:
         raise ImportError(
             "cadquery is required for STEP export. "
-            "Install with: pip install cadquery-ocp"
+            "Install with: pip install curveplate[stp]"
         )
 
     # Extract polygon vertices (excluding closing point if present)

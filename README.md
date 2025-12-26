@@ -104,15 +104,18 @@ Geometry Parameters:
 
 ## Common Gauges
 
-| Scale | Gauge (mm) |
-|-------|------------|
-| Z     | 6.5        |
-| N     | 9          |
-| TT    | 12         |
-| HO/OO | 16.5       |
-| S     | 22.5       |
-| O     | 32         |
-| G     | 45         |
+| Scale | Prototype Guage | Gauge (mm) |
+|-------|-----------------|------------|
+| Z     | 1435mm          | 6.5        |
+| N     | 1435mm          | 9          |
+| 2mm   | 1067mm          | 7.1        |
+| 2mm   | 1435mm          | 9.42       |
+| 2mm   | 1600mm          | 10.5       |
+| TT    | 1435mm          | 12         |
+| HO/OO | 1435mm          | 16.5       |
+| S     | 1435mm          | 22.5       |
+| O     | 1435mm          | 32         |
+| G     | 1435mm          | 45         |
 
 ## License
 

@@ -26,8 +26,8 @@ def export_stp(
         Path to created STP file
     """
     output_path = Path(output_path)
-    if not output_path.suffix:
-        output_path = output_path.with_suffix(".stp")
+    if output_path.suffix.lower() not in (".stp", ".step"):
+        output_path = Path(str(output_path) + ".stp")
 
     # For now, generate a placeholder STEP file
     # TODO: Implement proper STEP geometry using steputils or similar

@@ -64,8 +64,8 @@ def export_dxf(
         Path to created DXF file
     """
     output_path = Path(output_path)
-    if not output_path.suffix:
-        output_path = output_path.with_suffix(".dxf")
+    if output_path.suffix.lower() != ".dxf":
+        output_path = Path(str(output_path) + ".dxf")
 
     # Select paper size if not specified
     if paper_size is None:

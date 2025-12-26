@@ -55,8 +55,8 @@ def export_pdf(
         Path to created PDF file
     """
     output_path = Path(output_path)
-    if not output_path.suffix:
-        output_path = output_path.with_suffix(".pdf")
+    if output_path.suffix.lower() != ".pdf":
+        output_path = Path(str(output_path) + ".pdf")
 
     # Select paper size if not specified
     if paper_size is None:

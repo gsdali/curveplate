@@ -32,7 +32,7 @@ dev = [
     "ruff>=0.1.0",
 ]
 stp = [
-    "steputils>=0.2.0",
+    "cadquery-ocp>=7.7.0",
 ]
 
 [project.scripts]

@@ -58,6 +58,22 @@ curveplate -g 9 -t transition -r 200 -l 150 --left
 - `-l 150`: Transition length 150mm
 - `--left`: Curving to the left
 
+### 3D STEP Export
+
+Generate a 3D extruded template for CNC milling or 3D printing:
+
+```bash
+curveplate -g 9 -t straight -l 100 -3D 3
+```
+
+- `-3D 3`: Extrude to 3mm thickness, outputs STP file
+
+For 3D export, install with the `stp` optional dependency:
+
+```bash
+pip install curveplate[stp]
+```
+
 ## Command Reference
 
 ```
